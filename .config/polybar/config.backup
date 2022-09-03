@@ -1,0 +1,10 @@
+[section/base]
+include-file=/nix/store/1zngqdk0imbxsm3xwa71k0c5pg2caqkz-config.ini
+
+
+[module/xmonad]
+type = custom/script
+exec = /nix/store/vgf8r2rx3mhzl7580dnri90k1cl788hx-xmonad-log-0.1.0/bin/xmonad-log
+
+tail = true
+
